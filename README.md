@@ -43,6 +43,46 @@ Scripts → Stallion
 
 Restart Claude afterwards.
 
+----------
+
+## Configure in Codex
+
+Add the MCP server to your `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.cavalry_runtime]
+command = "node"
+args = ["/path/to/your/Cavalry-mcp/dist/index.js"]
+```
+
+Example:
+
+```toml
+[mcp_servers.cavalry_runtime]
+command = "node"
+args = ["/Users/rrenoir/MCP/Cavalry-mcp/dist/index.js"]
+```
+
+Replace the path above with the location of your own `Cavalry-mcp` folder.
+
+After editing the configuration, restart Codex.
+
+To verify the installation:
+
+```bash
+codex mcp list
+```
+
+Inside Codex:
+
+```text
+/mcp
+```
+
+You should see `cavalry_runtime` listed as an available MCP server.
+
+
+
 ---
 
 ## Available Tools
