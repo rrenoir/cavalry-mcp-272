@@ -1,6 +1,6 @@
 # cavalry-mcp-272
 
-MCP server for controlling **Cavalry 2.7.x** from **Claude Desktop** and **Claude Cowork**.
+MCP server for controlling **Cavalry 2.7.x** from **Claude Desktop**,**Claude Cowork** and **Codex**.
 
 ✅ Tested with:
 
