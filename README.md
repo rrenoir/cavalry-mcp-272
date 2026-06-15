@@ -43,7 +43,7 @@ Scripts → Stallion
 
 Restart Claude afterwards.
 
-----------
+-----
 
 ## Configure in Codex
 
